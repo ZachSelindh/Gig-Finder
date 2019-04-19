@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/coder-bg.jfif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#gig-nav {
+  position: fixed !important;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: fit-content;
+  padding: 0.5em;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+#gig-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#gig-nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#gigs-sec {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  margin-top: 7em;
+  padding: 1em;
+  border: 3px solid black;
+  border-radius: 2px;
+}
+
+#gigs-sec h2,
+#add-gig-sec h2 {
+  border-bottom: 3px solid black;
+}
+
+#add-gig-sec {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em;
+  border: 3px solid black;
+  border-radius: 2px;
+}
+
+#add-gig-sec input {
+  margin: 1em;
+  width: 90%;
+}
+
+#add-gig-sec textarea {
+  margin: 1em;
+  width: 90%;
+}
+
+#add-gig-sec button {
+  margin: 1em;
+  background-color: black;
+  color: white;
+}

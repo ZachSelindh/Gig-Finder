@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS gigs_db;
+CREATE DATABASE gigs_db;
+USE gigs_db;
+
+SELECT * FROM gigs;

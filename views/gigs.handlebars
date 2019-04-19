@@ -1,0 +1,30 @@
+{{> header }}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10" id="gigs-sec">
+            <h2> Available Gigs </h2>
+            <ul>
+                {{#each gigs}}
+                <div class="row">
+                    <h1> {{this.title}} </h1>
+                    <p> {{this.technologies}} </p>
+                    <p> {{this.budget}} </p>
+                    <p> {{this.description}} </p>
+                    <p> {{this.contact_email}} </p>
+                </div>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-8" id="add-gig-sec">
+            <h2> Add a Gig </h2>
+            <input class="form-control" id="gig-title" placeholder="Title"></input>
+            <input class="form-control" id="gig-tech" placeholder="Technologies"></input>
+            <input class="form-control" id="gig-budget" placeholder="Budget"></input>
+            <textarea class="form-control" rows="5" id="gig-desc" placeholder="Description"></textarea>
+            <input class="form-control" id="gig-email" placeholder="Contact Email"></input>
+            <button class="btn" id="add-gig">Add</button>
+        </div>
+    </div>
+</div>
